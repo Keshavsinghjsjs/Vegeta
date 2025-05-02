@@ -12,7 +12,7 @@ from keep_alive import keep_alive
 keep_alive()
 
 # Replace with your actual bot token and admin IDs
-API_TOKEN = "7462662021:AAFafe00SbPZqZWgqCfMVrtYyjwEQDkdmk0"
+API_TOKEN = "7462662021:AAGGZLt7gDhUnDWaN9FIpRdnOZaSsU4DdZY"
 ADMIN_IDS = {1163610781}  # Example: set of admin IDs
 
 bot = telebot.TeleBot(API_TOKEN)
@@ -360,7 +360,7 @@ def attack(message):
 
         # Validate time limit
         if attack_time > 600:
-            bot.reply_to(message, "❗𝗘𝗿𝗿𝗼𝗿:𝘠𝘰𝘶 𝘊𝘢𝘯 𝘜𝘴𝘦 240 𝘚𝘦𝘤𝘰𝘯𝘥𝘴 𝘈𝘵 𝘢 𝘛𝘪𝘮𝘦")
+            bot.reply_to(message, "❗𝗘𝗿𝗿𝗼𝗿:𝘠𝘰𝘶 𝘊𝘢𝘯 𝘜𝘴𝘦 600 𝘚𝘦𝘤𝘰𝘯𝘥𝘴 𝘈𝘵 𝘢 𝘛𝘪𝘮𝘦")
             return
 
         c.execute("INSERT INTO attacks (ip, port, time, user_id, start_time, active) VALUES (?, ?, ?, ?, ?, 1)",
