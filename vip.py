@@ -12,7 +12,7 @@ from keep_alive import keep_alive
 keep_alive()
 
 # Replace with your actual bot token and admin IDs
-API_TOKEN = "7462662021:AAGGZLt7gDhUnDWaN9FIpRdnOZaSsU4DdZY"
+API_TOKEN = "7474892140:AAFvwyexIzjU4LImxUV4qfw5oGzmILxEL44"
 ADMIN_IDS = {1163610781}  # Example: set of admin IDs
 
 bot = telebot.TeleBot(API_TOKEN)
